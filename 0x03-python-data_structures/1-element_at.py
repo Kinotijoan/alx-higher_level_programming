@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
     lenSize = len(my_list)
-    if i < 0 or i > lenSize:
+    if idx < 0 or idx > lenSize:
         return None
     else:
         for i, v in enumerate(my_list):
