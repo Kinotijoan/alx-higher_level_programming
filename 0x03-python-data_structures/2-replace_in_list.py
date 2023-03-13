@@ -4,6 +4,4 @@ def replace_in_list(my_list, idx, element):
     if idx < 0 or idx >= lenSize:
         return my_list
     else:
-        for i, v in enumerate(my_list):
-            i == idx
-            v = element
+        my_list[idx] = element
